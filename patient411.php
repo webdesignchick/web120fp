@@ -5,12 +5,12 @@
 
 
 <article class="pat411">
-    <form action= "process.php"method="post">
+    <form action="process.php" method="post">
 <h6>Personal Information:</h6>
 <section>
     <label>Name:</label><br>
     First  <input type="text" name="firstname" required>
-    Middle <input type="text" name="middle">
+    Middle <input type="text" name="middlename">
     Last <input type="text" name="lastname" required><br>
     Nickname <input type="text" name="nickname">
     <label>Date of Birth </label><input type="text" name="dob"><br>

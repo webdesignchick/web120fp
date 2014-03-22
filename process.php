@@ -6,8 +6,11 @@
 </head>
 <?php
 
-$name = $_POST["name"]
-	echo "Name" . $name 
+$FirstName = $_POST["firstname"];
+$MiddleName = $_POST["middlename"];
+$LastName = $_POST["lastname"];
+
+echo nl2br("Name is " . $FirstName." ".$MiddleName." \n".$LastName);
 ?>
 <body>
 </body>
