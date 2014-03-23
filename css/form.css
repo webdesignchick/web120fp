@@ -7,10 +7,10 @@ h6 {
 	text-align:left;
 	font-size: 1.5em;
 }
-.pat411 form {
-	padding: 5%;
-	border: solid 1px #828282;
+.pat411  {
+	padding: 0 5% 5% 5%;
 	text-align: justify;
+	border: none
 }
 label {
 	font-variant:small-caps;

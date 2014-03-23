@@ -8,7 +8,9 @@
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/massage.css">
 <link rel="stylesheet" type="text/css" href="css/form.css">
-
+<!--[if lt IE 9]>
+<script src="html5shiv.js"></script>
+<![endif]-->
 </head>
 
 <body>
