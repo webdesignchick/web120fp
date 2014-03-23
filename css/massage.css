@@ -122,6 +122,11 @@ article {
 	border-bottom: double 4px #481305;
 	display:inline-block;
 }
+.patprocess {
+	align-content:center;
+	border: none;
+	margin-bottom: 20px;
+}
 .testimonials ul {
 	list-style-type: none;
 	padding: 0px 2.5% 0px 2.5%;

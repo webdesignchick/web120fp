@@ -5,6 +5,7 @@
 <meta name="robots" content="noindex,nofollow" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
 <title>Template</title>
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/massage.css">
 <link rel="stylesheet" type="text/css" href="css/form.css">
 
