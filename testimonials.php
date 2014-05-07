@@ -15,9 +15,9 @@
 </ul>
 
 
-     <p><?php
-			include 'contact.php' ;
-			?></p>
+    <?php
+	include 'contact.php' ;
+			?>
             
             </section>
     

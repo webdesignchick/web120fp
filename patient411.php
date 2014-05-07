@@ -5,7 +5,7 @@
 <article class="pat411">
 
 <h3>Patient Information Form</h3>
-
+<p>Thank you for filling out this form ahead of time.  By doing so we can save time during your visit as well as save a few trees. There is no need to print this form  </p>
     <form action="process.php" method="post">
 
 <h6>Personal Information:</h6>
@@ -34,6 +34,7 @@
     <div class="form-group">
     	<input type="text" name="dob" class="form-control" placeholder="mm/dd/yyyy">
     </div>
+    
      <div class="form-gourp">
     	<label> Sex:</label>
     	<input type="radio" name="sex" value="male">Male
@@ -42,7 +43,6 @@
    
     <div class="form-group">
     <label> Address: </label><br>
-    <div class="form-group">
     	<input type="text" name="streetaddress" required class="form-control" placeholder="Street Address">
     </div>
     
@@ -68,6 +68,9 @@
 
     <div class="form-group">
     <label> Preferred Contact Method:</label>
+    </div>
+    
+    <div class="form-group">
     <input type="radio" name="preferredcontactmethod" value="home">Home
     <input type="radio" name="preferredcontactmethod" value="mobile">Mobile
     <input type="radio" name="preferredcontactmethod" value="email">Email<br>
@@ -75,8 +78,11 @@
 
     <div class="form-group">
     <label> Marital Status:</label>
+    </div>
+    
+    <div class="form-group">
     <input type="radio" name="maritalstatus" value="single">Single
-    <input type="radio" name="maritalstatus" value="married">Married/Living with Partner
+    <input type="radio" name="maritalstatus" value="married">Married
     <input type="radio" name="maritalstatus" value="single">Divorced
     <input type="radio" name="maritalstatus" value="widowed">Widowed
     </div>
@@ -88,17 +94,20 @@
     
     <div class="form-group">
 	Children(s) Name and Ages
+    </div>
+    
+    <div class="form-group">
     <textarea rows="4" cols="30" name="childrennames" class="form-control" > </textarea>
     </div>
     
     <div class="form-group">
     <label> Emergency Contact:</label><br>
 	
-    Name <input type="text" name="ecname"  class="form-control" placeholder="Emergency Contact Name" required> 
+    <input type="text" name="ecname"  class="form-control" placeholder="Emergency Contact Name" required> 
 	</div>
     
     <div class="form-group">
-    Number <input type="text" name="ecnumber" class="form-control" placeholder="Emergency Contact Number" required> 
+    <input type="text" name="ecnumber" class="form-control" placeholder="Emergency Contact Number" required> 
 	</div>
 
 </section>
@@ -110,7 +119,10 @@
     <label>Current Symptoms </label><br>
 	
     <div class="form-group">
-    <textarea rows="4" cols="60" name="currentsymptoms" class="form-control" > </textarea><br>
+    <textarea rows="4" cols="30" name="currentsymptoms" class="form-control" > </textarea><br>
+    </div>
+    
+    <div class="form-group">
     Date Symptoms Began <input type="text" name="symptomdate" class="form-control" placeholder="mm/dd/yyyy"> 
     </div>
     <div class="form-group">
@@ -123,18 +135,21 @@
     
     <div class="form-group">
      <label> Additional	Notes</label><br>
-    <textarea rows="4" cols="60" name="additionalnotes" class="form-control" > </textarea><br>
+    </div>
+    
+    <div class="form-group"> 
+    <textarea rows="4" cols="30" name="additionalnotes" class="form-control" > </textarea><br>
 	</div>
-</section>
-
-<section>
-<label>Allergies  <small>Please list any allergies past or present.</small></label>
-     <textarea rows="4" cols="60" class="form-control" > </textarea>
-</section>
-<section>
+	
+    <div class="form-group">
+    <label>Allergies  <small>Please list any allergies past or present.</small></label>
+     </div>
+    
+    <div class="form-group">
+    <textarea rows="4" cols="30" class="form-control" > </textarea>
 	<input type="submit" value="Submit">
+    </div>
 </section>
-
 </form>
 </article>
 

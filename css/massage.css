@@ -36,7 +36,12 @@ h1 {
 h2 {
 	padding: 20px 10px 10px 10px;
 	font-family: 'Fanwood Text', serif;
+
 }
+ a:hover {
+	color:#481305;
+		text-decoration:none;
+		}
 h3 {
 	font-family: 'Fanwood Text', serif;
 	color: #481305;
@@ -115,7 +120,9 @@ h6 {
 .main a#pull {
 	display: none;
 }	
-
+ .current {
+		color: #481305;
+}
 article {
 	text-align: justify;
 	padding: 0px 2.5% 0px 2.5%;
@@ -223,6 +230,9 @@ footer {
 }
 	h2 {
 		font-size: 300%;
+}
+h2 a hover {
+	
 }
 	h3 {
 		font-size: 150%;
